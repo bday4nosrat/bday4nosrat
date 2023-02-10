@@ -55,6 +55,9 @@ div.gallery {
   text-align: left;
   border: 1px solid #444444;
   padding: 10px;
+  box-shadow: 5px 5px 5px gray;
+  margin: 10px;
+  max-width: 500px;
 }
 
 h1 {
