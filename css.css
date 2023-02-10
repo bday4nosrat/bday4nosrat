@@ -16,7 +16,7 @@
   background-color: white;
   padding: 5px 50px;
   font-variant: normal;
-  font-family: monospace;
+  font-family: 'Playfair Display', serif;
   transition: 0.7s ease;
 }
 
@@ -32,6 +32,7 @@
 
 /* body stays in the middle*/
 div.outerpagewrap {
+  background-color: white;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -42,8 +43,8 @@ div.outerpagewrap {
 }
 
 body {
-    background-color: white ;
-    font-family: 'Open Sans', sans-serif;
+    background-color: burlywood  ;
+    font-family: 'Merriweather', sans-serif;
     color: black;
     line-height:      1.4em;
     align-items: center;
@@ -52,6 +53,15 @@ body {
 
 h1 {
   text-align: center;
-  text-decoration: underline;
+  text-decoration: overline;
+  font-family: 'Playfair Display', serif;
 }
 
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  font-size: xx-large;
+  background-color: lightblue;
+  margin-top: 20px;
+}
