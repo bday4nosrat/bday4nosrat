@@ -21,13 +21,14 @@
 }
 
 .menu li a:hover {
-  background-color: purple;
+  background-color: lightskyblue;
   color: #F2EDD5;
   transition: 0.6s ease;
   text-decoration: underline;
   text-decoration-color: #F2EDD5;
 
 }
+
 
 /* body stays in the middle*/
 div.outerpagewrap {
@@ -44,7 +45,13 @@ body {
     background-color: white ;
     font-family: 'Open Sans', sans-serif;
     color: black;
-    line-height: 1.4em;
+    line-height:      1.4em;
     align-items: center;
     font-size: 16px;
 }
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+

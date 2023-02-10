@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>happy birthday nosrat</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">index</a></li>
+            <li><a href="message.html">messages</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+
+        </ul>
+    </nav>
+    <div class="outerpagewrap">
+        <h1>Welcome to the Gallery</h1>
+        <p>Gallery featuring artists: Hayley, Robyn and Muria</p>
+        <img src="images/collab_nosrat_bday.jpg">
+
+        <img hidden id="myImage" src="images/valentines.png" style="width:1000px" >
+
+        <button onclick="myFunction()">Try it</button>
+        
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myImage");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+
+    </div>
+
+
+</body>
+
+</html>
