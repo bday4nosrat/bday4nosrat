@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&family=Playfair+Display+SC:ital@1&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
-      </style>
+    </style>
 </head>
 
 <body>
@@ -25,22 +25,31 @@
         <h1>Welcome to the Gallery</h1>
         <p>Gallery featuring artists: Hayley, Robyn and Muria</p>
         <img src="images/collab_nosrat_bday.jpg">
-        <img src="images/urahara.png">
 
-        <img hidden id="myImage" src="images/valentines.png" style="width:1000px" >
+        <div class ="gallery">
+            <p>Robyn, Muria, Hayley (b.2002/3)</p>
+            <p>A Playlist Cover</p>
+            <p>Digital</p>
+            <p>A gift to a king</p>
+        </div>
+        
+        <img src="images/urahara.png">
+        <p>bonus urahara !! by rob</p>
+
+        <img hidden id="myImage" src="images/valentines.png" style="width:1000px">
 
         <button onclick="myFunction()">&#128151; urahara candy x2</button>
-        
-        
+
+
         <script>
-        function myFunction() {
-          var x = document.getElementById("myImage");
-          if (x.style.display === "none") {
-            x.style.display = "block";
-          } else {
-            x.style.display = "none";
-          }
-        }
+            function myFunction() {
+                var x = document.getElementById("myImage");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
         </script>
 
     </div>

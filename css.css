@@ -34,7 +34,7 @@ body {
   background-color: aliceblue;
   font-family: 'Noto Sans NKo', sans-serif;
   color: black;
-  line-height:      1.4em;
+  line-height: 1.4em;
   align-items: center;
   font-size: 16px;
 }
@@ -51,6 +51,11 @@ div.outerpagewrap {
 
 }
 
+div.gallery {
+  text-align: left;
+  border: 1px solid #444444;
+  padding: 10px;
+}
 
 h1 {
   text-align: center;
@@ -70,4 +75,3 @@ h2 {
   background-color: lightblue;
   margin-top: 20px;
 }
-
