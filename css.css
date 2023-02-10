@@ -32,7 +32,10 @@
 
 /* body stays in the middle*/
 div.outerpagewrap {
-  background-color: white;
+  background-color: #e5e5f7;
+opacity: 1;
+background-image: radial-gradient(#c7c0ff 1.6500000000000001px, #e5e5f7 1.6500000000000001px);
+background-size: 33px 33px;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -44,7 +47,7 @@ div.outerpagewrap {
 
 body {
     background-color: burlywood  ;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Noto Sans NKo', sans-serif;
     color: black;
     line-height:      1.4em;
     align-items: center;
@@ -54,7 +57,11 @@ body {
 h1 {
   text-align: center;
   text-decoration: overline;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display SC', serif;
+}
+
+h2 {
+  text-align: left;
 }
 
 #myDIV {
@@ -65,3 +72,4 @@ h1 {
   background-color: lightblue;
   margin-top: 20px;
 }
+
