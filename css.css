@@ -30,12 +30,18 @@
 }
 
 
+body {
+  background-color: aliceblue;
+  font-family: 'Noto Sans NKo', sans-serif;
+  color: black;
+  line-height:      1.4em;
+  align-items: center;
+  font-size: 16px;
+}
+
 /* body stays in the middle*/
 div.outerpagewrap {
-  background-color: #e5e5f7;
-opacity: 1;
-background-image: radial-gradient(#c7c0ff 1.6500000000000001px, #e5e5f7 1.6500000000000001px);
-background-size: 33px 33px;
+  background-color: white;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -45,14 +51,6 @@ background-size: 33px 33px;
 
 }
 
-body {
-    background-color: burlywood  ;
-    font-family: 'Noto Sans NKo', sans-serif;
-    color: black;
-    line-height:      1.4em;
-    align-items: center;
-    font-size: 16px;
-}
 
 h1 {
   text-align: center;
